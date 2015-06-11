@@ -1,0 +1,16 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	/*outline: 1px dashed red;*/
+}
+.container{
+	width: 200px;
+	min-height: 100px;
+}
+.pictures{
+	display: inline-block;
+}
+div{
+	
+	margin-bottom:-4px;
+}

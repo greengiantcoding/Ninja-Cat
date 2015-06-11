@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja To Cat!</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="ninjaCat.css">
+	<script type="text/javascript" src="JQueryLib.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.pictures1').hide();
+			$('#pic1').click(function(){
+				$('#pic1').toggle(function(){
+
+				}})
+			})
+		})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div><img src='ninja0.png' data-alt-src="cat0.png" id="pic1" class="pictures">
+			 <img src='cat0.png' id="pic1a" class="pictures1">
+		</div>
+		<div><img src='ninja1.png' data-alt-src="cat1.png" id="pic2" class="pictures">
+			 <img src='cat1.png' id="pic2a" class="pictures1">
+		</div>
+		<div><img src='ninja2.png' data-alt-src="cat2.png" id="pic3" class="pictures">
+			 <img src='cat2.png' id="pic3a" class="pictures1">
+		</div>
+		<div><img src='ninja3.png' data-alt-src="cat3.png" id="pic4" class="pictures">
+			 <img src='cat3.png' id="pic4a" class="pictures1">
+		</div>
+		<div><img src='ninja4.png' data-alt-src="cat4.png" id="pic5" class="pictures">
+			 <img src='cat4.png' id="pic5a" class="pictures1">
+		</div>
+	</div>
+</body>
+</html>

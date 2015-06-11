@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ninja To Cat!</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="ninjaCat.css">
+	<script type="text/javascript" src="JQueryLib.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.pictures0').hide();
+			$('.box1').click(function(){
+				$('.box1 img').toggle()
+			})
+			$('.box2').click(function(){
+				$('.box2 img').toggle()
+			})
+			$('.box3').click(function(){
+				$('.box3 img').toggle()
+			})
+			$('.box4').click(function(){
+				$('.box4 img').toggle()
+			})
+			$('.box5').click(function(){
+				$('.box5 img').toggle()
+			})
+		})
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="box1">
+			<img src='ninja0.png' id="pic1" class="pictures" alt="ninja1">
+			<img src='cat0.png' id="picA" class="pictures0" alt="cat1">
+		</div>
+		<div class="box2">
+			<img src='ninja1.png' id="pic2" class="pictures" alt="ninja2">
+			<img src='cat1.png' id="picB" class="pictures0" alt="cat2">
+		</div>
+		<div class="box3">
+			<img src='ninja2.png' id="pic3" class="pictures" alt="ninja3">
+			<img src='cat2.png' id="picC" class="pictures0" alt="cat3">
+		</div>
+		<div class="box4">
+			<img src='ninja3.png' id="pic4" class="pictures" alt="ninja4">
+			<img src='cat3.png' id="picD" class="pictures0" alt="cat4">
+		</div>
+		<div class="box5">
+			<img src='ninja4.png' id="pic5" class="pictures" alt="ninja5">
+			<img src='cat4.png' id="picE" class="pictures0" alt="cat5">
+		</div>
+	</div>
+</body>
+</html>
